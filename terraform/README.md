@@ -16,3 +16,8 @@ terraform apply
 Output
 
 Load balancer DNS
+
+Improvements: 
+1. Use variables instead of direct values in tf files
+2. Modules for AMI and other small stuff
+3. integrated ansible or remote exec to have better control over app startup
